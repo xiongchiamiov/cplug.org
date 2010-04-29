@@ -2,21 +2,79 @@ body {
 	margin: 0;
 }
 
+#header,
+#main,
+#footer {
+	padding-left: 3em;
+	padding-right: 3em;
+}
+
 /* Header */
 #header {
-	height: 6em;
 	background-color: #768EB5;
-	color: white;
 	margin-bottom: 3em;
-	padding: 1.5em;
+}
+
+#header .wrapper {
+	display: table;
+	width: 100%;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#header,
+#nav,
+#header .wrapper {
+	height: 8em;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+#header,
+#header a,
+#header a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+.logo {
+	font-size: 5em;
+	margin-top: 7em;
+	font-family: Impact;
+	font-variant: small-caps;
+}
+
+.logo,
+#nav li a {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#nav {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#nav li {
+	list-style: none;
+	float: right;
+	margin-left: 0em;
+	height: 100%;
+	padding-left: 1em;
+	padding-right: 1em;
+	display: table;
+}
+
+#nav li:hover {
+	background-color: #97B2DE;
+}
+
+#nav a {
+	font-size: 2em;
+	font-family: Tahoma;
 }
 
 /* Main */
-#main {
-	padding-left: 2em;
-	padding-right: 2em;
-}
-
 #main,
 #main a,
 #main a:visited {

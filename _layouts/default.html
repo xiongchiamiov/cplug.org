@@ -6,7 +6,17 @@
 	<link rel="stylesheet" href="/media/css/style.css" /></head>
 <body>
 	<div id="header">
-		CPLUG.org
+		<div class="wrapper">
+		<span class="logo"><a href="/">CPLUG.org</a></span>
+		<ul id="nav">
+			<!-- since these are being floated right, the order here is opposite
+			     of what you'll see.  Pretty awesome, neh?
+			-->
+			<li><a href="/contact/">Contact</a></li>
+			<li><a href="/news/">News</a></li>
+			<li><a href="/about/">About</a></li>
+		</ul>
+		</div>
 	</div>
 	<div id="main">
 		{% include post_header.html %}
