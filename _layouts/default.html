@@ -1,20 +1,22 @@
+{% assign root = '/cplug.org' %}
+
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 	<title>{{ page.title }} - CPLUG.org - Cal Poly Linux Users Group</title>
-	<link rel="stylesheet" href="/media/css/style.css" /></head>
+	<link rel="stylesheet" href="{{ root }}/media/css/style.css" /></head>
 <body>
 	<div id="header">
 		<div class="wrapper">
-		<span class="logo"><a href="/">CPLUG.org</a></span>
+		<span class="logo"><a href="{{ root }}">CPLUG.org</a></span>
 		<ul id="nav">
 			<!-- since these are being floated right, the order here is opposite
 			     of what you'll see.  Pretty awesome, neh?
 			-->
-			<li><a href="/contact/">Contact</a></li>
-			<li><a href="/news/">News</a></li>
-			<li><a href="/about/">About</a></li>
+			<li><a href="{{ root }}/contact/">Contact</a></li>
+			<li><a href="{{ root }}/news/">News</a></li>
+			<li><a href="{{ root }}/about/">About</a></li>
 		</ul>
 		</div>
 	</div>
