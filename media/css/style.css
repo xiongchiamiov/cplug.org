@@ -1,0 +1,42 @@
+body {
+	margin: 0;
+}
+
+/* Header */
+#header {
+	height: 6em;
+	background-color: #768EB5;
+	color: white;
+	margin-bottom: 3em;
+	padding: 1.5em;
+}
+
+/* Main */
+#main {
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+#main,
+#main a,
+#main a:visited {
+	color: #333;
+}
+
+.post {
+	border-top: 1px dashed #bbb;
+}
+.date {
+	float: right;
+	font-size: small;
+}
+
+/* Footer */
+#footer {
+	font-size: small;
+	background-color: #768EB5;
+	padding: .5em;
+	color: white;
+	text-align: center;
+	margin-top: 3em;
+}
