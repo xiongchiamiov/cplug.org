@@ -1,9 +1,9 @@
 ---
 layout: multiple
-title: Hello!
+title: Welcome to CPLUG
 ---
 
-{% for page in site.posts limit:5 %}
+{% for page in site.posts limit:3 %}
 <div class="post">
 	{% include post_header.html %}
 	{{ page.content }}
